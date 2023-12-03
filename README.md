@@ -153,9 +153,9 @@ The voting classifier was implemented using different combinations of models, wi
 | Models                                      | Image Size | Test F1 |
 |---------------------------------------------|------------|---------|
 | efficientnet_b0+b1+b2                       | 256x256    | 0.98236 |
-| efficientnet_b0+b1+b2+b3                    | 256x257    | 0.97984 |
-| efficientnet_b0+b1+b2 + resnet18+34+50+101  | 256x258    | 0.97732 |
-| resnet18+34+50+101                          | 256x259    | 0.97481 |
+| efficientnet_b0+b1+b2+b3                    | 256x256    | 0.97984 |
+| efficientnet_b0+b1+b2 + resnet18+34+50+101  | 256x256    | 0.97732 |
+| resnet18+34+50+101                          | 256x256    | 0.97481 |
 
 Voting classifiers often outperform single models, especially in complex tasks like plant seedlings classification. By combining the strengths of multiple models, they reduce the impact of individual biases and errors, leading to more accurate and robust predictions. This ensemble approach harnesses the collective insights of various models, making it a powerful strategy in advanced machine learning applications.
 
